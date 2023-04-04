@@ -1,0 +1,7 @@
+wikipedia==1.4.0
+fastapi==0.65.1
+uvicorn==0.14.0
+pytest 
+pytest-mock
+pytest-asyncio 
+httpx
