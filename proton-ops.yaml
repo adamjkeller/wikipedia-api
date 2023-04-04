@@ -4,3 +4,6 @@ sync:
       sync-dev:
         branch: proton
         spec: service-sync.yaml
+      sync-stg:
+        branch: proton
+        spec: service-sync.yaml

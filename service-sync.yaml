@@ -11,3 +11,14 @@ instances:
       service_discovery_name: sync-dev
       load_balanced_public: true
       load_balanced: true
+  - name: sync-stg
+    environment: service-sync-env
+    spec:
+      port: 8080
+      desired_count: 1
+      task_size: small
+      image: public.ecr.aws/n4u6b4v4/wiki-demo-app
+      imageTag: latest
+      service_discovery_name: sync-stg
+      load_balanced_public: true
+      load_balanced: true
