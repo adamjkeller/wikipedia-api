@@ -1,0 +1,6 @@
+sync:
+  services:
+    service-sync-demo:
+      sync-dev:
+        branch: proton
+        spec: service-sync.yaml
